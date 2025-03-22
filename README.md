@@ -8,5 +8,7 @@ lswt wlrctl
 
 # things to do
 ln -s ~/dotfiles ~/.config
+
 mkdir ~/.themes && cp -r ~/dotfiles/labwc/gruvbox-material-dark-blocks ~/.themes
+
 git clone https://github.com/SylEleuth/gruvbox-plus-icon-pack.git, symlink to ~/.icons
