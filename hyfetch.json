@@ -1,0 +1,16 @@
+{
+    "preset": "transgender",
+    "mode": "rgb",
+    "light_dark": "dark",
+    "lightness": 0.55,
+    "color_align": {
+        "mode": "vertical",
+        "custom_colors": [],
+        "fore_back": []
+    },
+    "backend": "fastfetch",
+    "args": null,
+    "distro": null,
+    "pride_month_shown": [],
+    "pride_month_disable": false
+}
