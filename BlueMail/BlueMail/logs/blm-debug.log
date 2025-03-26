@@ -1,0 +1,28 @@
+3/25/2025, 8:37:07 PM :: Main thread initialized 
+3/25/2025, 8:37:07 PM :: Getting system flags 
+3/25/2025, 8:37:07 PM :: isLinux true 
+3/25/2025, 8:37:07 PM :: isMac false 
+3/25/2025, 8:37:07 PM :: isWindows false 
+3/25/2025, 8:37:07 PM :: isWindowsExeBuild false 
+3/25/2025, 8:37:07 PM :: isWindowsStoreBuild false 
+3/25/2025, 8:37:07 PM :: Retrieving process agrs 
+3/25/2025, 8:37:07 PM :: #0: || /opt/bluemail/bluemail || type: string -- /opt/bluemail/bluemail 
+3/25/2025, 8:37:07 PM :: #1: || --no-sandbox || type: string -- --no-sandbox 
+3/25/2025, 8:37:07 PM :: #2: || --ozone-platform=x11 || type: string -- --ozone-platform=x11 
+3/25/2025, 8:37:07 PM :: Retrieving LoginItemSettings 
+3/25/2025, 8:37:07 PM :: {"openAtLogin":false,"openAsHidden":false,"restoreState":false,"wasOpenedAtLogin":false,"wasOpenedAsHidden":false} 
+3/25/2025, 8:37:12 PM :: [splash] dataLoadedCallback 1 
+3/25/2025, 8:37:12 PM :: modify autostart handler called { openAtLogin: true, openAsHidden: false } 
+3/25/2025, 8:37:13 PM :: 'did-finish-load' shouldOpenAsHidden openAsHidden false 
+3/25/2025, 8:37:13 PM :: 'did-finish-load false 
+3/25/2025, 8:37:13 PM :: [splash] didFinishLoadMain { isTimedOut: false } 
+3/25/2025, 8:37:13 PM :: [splash] dataLoadedCallback 2 
+3/25/2025, 8:37:13 PM :: [splash] dataLoadedCallback 3 
+3/25/2025, 8:37:13 PM :: [splash] dataLoadedCallback 4 
+3/25/2025, 8:37:13 PM :: [splash] dataLoadedCallback 5 
+3/25/2025, 8:37:13 PM :: [splash] dataLoadedCallback 6 
+3/25/2025, 8:44:21 PM :: ReferenceError: s is not defined
+    at handleAppQuit (/opt/bluemail/resources/app.asar/electron/main.prod.js:1:73450)
+    at MenuItem.click (electron/js2c/browser_init.js:73:1742)
+    at Object.a._executeCommand (electron/js2c/browser_init.js:81:2492) 
+3/25/2025, 8:44:21 PM :: APP quit, uptimeSeconds: 433, exitCode: [object Object] 

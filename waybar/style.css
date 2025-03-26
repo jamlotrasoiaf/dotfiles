@@ -153,18 +153,6 @@ button {
     margin: 2px 2px 2px 2px;
 }
 
-/* #battery.charging {
-    background-color: @green;
-}
-
-#battery.plugged {
-    background-color: @green;
-}
-
-#battery.critical:not(.charging) {
-    background-color: @red;
-} */
-
 #wireplumber {
     background-color: @bg0_h;
     color: @blue;
@@ -179,12 +167,5 @@ button {
     }
 }
 
-.modules-left > widget:first-child > #taskbar {
-    margin-left: 0;
-}
-
-.modules-right > widget:last-child > #taskbar {
-    margin-right: 0;
-}
 
 
