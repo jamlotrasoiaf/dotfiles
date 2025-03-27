@@ -14,7 +14,7 @@ swaybg -i ~/.config/pictures/wallpaper.png >/dev/null 2>&1 &
 
 # Launch a panel such as yambar or waybar.
 waybar >/dev/null 2>&1 &
-clipse -listen >/dev/null 2>&1 &
+wl-paste --watch cliphist store >/dev/null 2>&1 &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 >/dev/null 2>&1 &
 
 # Enable notifications. Typically GNOME/KDE application notifications go
