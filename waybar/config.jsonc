@@ -2,7 +2,7 @@
   "layer": "bottom",
   "position": "top",
   //"spacing": 4,
-  "height": 30, // (Remove for auto height)
+  "height": 35, // (Remove for auto height)
   // Modules
   "modules-left": [
     "wlr/taskbar"
@@ -20,7 +20,9 @@
   ],
   // Modules configuration
   "wlr/taskbar": {
-    "format": "{app_id}",
+    "format": "{icon}",
+    "icon-size": 16,
+    "icon-theme": "Gruvbox Plus Dark",
     "on-click": "minimize-raise",
     "app_ids-mapping": {
       "org.gnome.FileRoller": "FileRoller",
