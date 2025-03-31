@@ -6,3 +6,4 @@ end
 
 # alias ls="eza -l --git --color=always --icons=never --sort=extension --no-user --no-permissions"
 alias ascii="bash $HOME/.config/fish/ascii.sh"
+fish_add_path ~/.spicetify
